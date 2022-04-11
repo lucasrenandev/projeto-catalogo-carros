@@ -1,2 +1,2 @@
 # projeto-catalogo-carros
- Projeto feito com HTML e CSS
+ Projeto desenvolvido com HTML e CSS
