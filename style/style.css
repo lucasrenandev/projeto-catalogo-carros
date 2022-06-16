@@ -38,7 +38,7 @@ header {
     max-width: 1000px;
     min-width: 300px;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     margin: 0 auto;
     padding: 10px;
 }
