@@ -13,6 +13,69 @@
     /* ==== header-destaque ====*/
 
     .header-destaque {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-destaque img {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        max-width: 450px;
+    }
+
+    .header-destaque-texto {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-destaque-texto h2, 
+    .header-destaque-texto p {
+
+        text-align: center;
+    }
+
+    /* ==== section sobre ==== */
+
+    .left-content {
+        display: none;
+    }
+
+    #sobre-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-content h3 {
+        text-align: center;
+    }
+
+    .right-content p {
+        text-align: center;
+    }
+
+    /* ==== section feature ==== */
+   
+    .feature-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* ==== header-destaque ====*/
+
+    header nav ul li a {
+        display: none;
+    }
+    
+    .header-destaque {
         border: 1px solid blue;
         justify-content: center;
         align-items: center;
