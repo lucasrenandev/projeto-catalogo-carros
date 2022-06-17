@@ -74,7 +74,7 @@
     header nav ul li a {
         display: none;
     }
-    
+
     .header-destaque {
         border: 1px solid blue;
         justify-content: center;
@@ -126,7 +126,5 @@
 
     /* ==== section feature ==== */
    
-    .feature-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
 }
