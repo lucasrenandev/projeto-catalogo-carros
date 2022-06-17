@@ -336,7 +336,6 @@ nav button:hover {
 }
 
 .feature-content {
-    border: 1px solid blue;
     max-width: 1000px;
     min-width: 300px;
     margin: 0 auto;
@@ -346,11 +345,9 @@ nav button:hover {
 }
 
 .feature-wrapper {
-    border: 1px  solid green;
-    height: 600px; 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); 
-    padding: 30px;
+    padding: 40px;
     background-color: #fff;
     gap: 30px;
     border-radius: 8px;
@@ -363,8 +360,9 @@ nav button:hover {
     border: 1px solid var(--gray);
     padding: 30px;
     border-radius: 8px;
-    gap: 30px;
+    gap: 20px;
 }
+
 .feature-card-item img {
     width: 75px;
     height: 75px;
