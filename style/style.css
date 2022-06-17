@@ -347,25 +347,25 @@ nav button:hover {
 .feature-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); 
-    padding: 40px;
+    padding: 50px;
     background-color: #fff;
     gap: 30px;
     border-radius: 8px;
 }
 
 .feature-card-item {
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--gray);
-    padding: 30px;
     border-radius: 8px;
     gap: 20px;
 }
 
 .feature-card-item img {
-    width: 75px;
-    height: 75px;
+    width: 64px;
+    height: 64px;
 }
 
 .feature-card-text {
@@ -386,6 +386,7 @@ main {
 }
 
 .footer-content {
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -397,6 +398,7 @@ main {
 .footer-contact {
 
     color: #fff;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
