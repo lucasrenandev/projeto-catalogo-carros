@@ -372,3 +372,51 @@ nav button:hover {
     max-width: 250px;
     padding: 10px;
 }
+
+/* ==== FOOTER ==== */
+
+footer {
+    height: 250px;
+    background-color: var(--orange);
+    padding: 50px 0;
+}
+
+main {
+    height: 200px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-company,
+.footer-rental,
+.footer-social,
+.footer-contact {
+
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.social img {
+    width: 37px;
+}
+
+.copy {
+    height: 60px;
+    background-color: var(--blue);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy p {
+    font-size: 1.1em;
+}
