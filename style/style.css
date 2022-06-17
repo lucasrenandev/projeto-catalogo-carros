@@ -63,6 +63,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     padding: 10px;
+    gap: 20px;
 }
 
 nav ul li {
@@ -89,7 +90,7 @@ nav button {
     font-weight: 500;
     color: var(--blue);
     border: 1px solid var(--blue);
-    margin-left: 25px;
+    
 }
 
 nav button:hover {
@@ -193,11 +194,13 @@ nav button:hover {
     background-color: var(--blue);
     color: #fff;
     font-size: 1.1em;
+    font-weight: 500;
 }
 
 .search-input button:hover {
     background-color: var(--gray);
     color: var(--blue);
+    font-weight: 500;
     cursor: pointer;
     transition: 0.5s;
 }
