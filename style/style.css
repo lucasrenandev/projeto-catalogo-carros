@@ -114,7 +114,7 @@ nav button:hover {
 }
 
 .header-destaque img {
-    width: 550px;
+    max-width: 550px;
     position: absolute;
     right: 30px;
     bottom: 10px;
@@ -387,7 +387,6 @@ main {
 }
 
 .footer-content {
-    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
