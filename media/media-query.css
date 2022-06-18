@@ -289,17 +289,32 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+
+    /* ==== section features ==== */
+    
+    #features {
+        padding: 10px;
+    }
+
+    /* ===== footer ==== */
+
+    .copy p {
+        font-size: 1em;
+    }
+}
+
 @media screen and (max-width: 320px) {
+
+    /* ==== header ==== */
 
     header nav ul button {
         display: none;
     }
 
-    #features {
-        padding: 10px;
-    }
+    /* ==== section catálogo ==== */
 
-    .copy p {
-        font-size: 1em;
+    #catalogo {
+        padding: 10px;
     }
 }
