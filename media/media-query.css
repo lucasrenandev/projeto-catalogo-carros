@@ -227,7 +227,6 @@
     /* ==== footer ==== */
 
     footer {
-        border: 1px solid red;
         height: 70%;
         padding: 0;
     }
@@ -239,8 +238,8 @@
         align-items: center;
         gap: 30px;
     }
+
     main {
-        border: 1px solid blue;
         height: 100%;
     }
 
