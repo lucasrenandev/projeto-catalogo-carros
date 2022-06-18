@@ -271,7 +271,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 30px;
     }
 
     main {
@@ -299,8 +299,15 @@
 
     /* ===== footer ==== */
 
+    footer {
+        height: 65%;
+    }
     .copy p {
         font-size: 1em;
+    }
+
+    .footer-content {
+        gap: 5px;
     }
 }
 
@@ -316,5 +323,9 @@
 
     #catalogo {
         padding: 10px;
+    }
+
+    .footer-content {
+        gap: 10px;
     }
 }
