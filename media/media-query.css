@@ -72,7 +72,7 @@
     
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
 
     /* ==== header-destaque ====*/
 
@@ -143,4 +143,114 @@
         text-align: center;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+
+    /* ==== header ==== */
+
+    header {
+        height: 100%;
+    }
+
+    header nav ul li a {
+        display: none;
+    }
+    
+    .header-conteudo {
+        height: 100%;
+    }
+
+    .header-destaque {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .header-destaque img {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        max-width: 70%;
+    }
+
+    .header-destaque-texto {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .header-destaque-texto p {
+        text-align: center;
+    }
+
+    /* ==== section catálogo ==== */
+
+    #catalogo {
+        padding: 20px;
+    }
+
+    .conteudo-input {
+        display: none;
+    }
+
+    .card-wrapper {
+        margin: 0;
+    }
+
+    .card-item img {
+        width: 70%;
+    }
+
+    /* ==== section sobre ==== */
+
+    .left-content {
+        display: none;
+    }
+
+    .right-content {
+        width: 100%;
+    }
+
+    .right-content h3, .right-content p {
+        text-align: left;
+    }
+
+    /* ==== section features ==== */
+
+    /* ==== footer ==== */
+
+    footer {
+        border: 1px solid red;
+        height: 70%;
+        padding: 0;
+    }
+
+    .footer-content {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    main {
+        border: 1px solid blue;
+        height: 100%;
+    }
+
+    .footer-company,
+    .footer-rental,
+    .footer-social,
+    .footer-contact {
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
 }
