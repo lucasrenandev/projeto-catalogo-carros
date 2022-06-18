@@ -162,8 +162,7 @@
     }
 
     header nav {
-        justify-content: center;
-        align-items: center;
+        
     }
 
     header nav ul {
@@ -176,6 +175,7 @@
     }
 
     .header-destaque {
+        display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
@@ -185,7 +185,7 @@
         position: relative;
         right: 0;
         bottom: 0;
-        max-width: 70%;
+        max-width: 85%;
     }
 
     .header-destaque-texto {
@@ -198,19 +198,14 @@
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        border: 1px solid blue;
     }
 
     .header-destaque-texto h2 {
-        width: 80%;
-        border: 1px solid red;
         text-align: center;
     }
 
     .header-destaque-texto p {
-        max-width: 100%;
-        text-align: right;
-        border: 1px solid orange;
+        text-align: center;
     }
 
     /* ==== section catálogo ==== */
