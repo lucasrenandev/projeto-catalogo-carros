@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1000px) and (max-width: 1070px) {
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
 
     /* ==== section feature ==== */
 
@@ -65,9 +65,14 @@
     .feature-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .feature-card-item {
+        padding: 14px;
+    }
+    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
 
     /* ==== header-destaque ====*/
 
@@ -105,6 +110,31 @@
         text-align: center;
     }
 
+    /* ==== section catalog ==== */
+
+    #catalogo {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .catalogo-texto {
+        margin: 0;
+    }
+
+    .conteudo-catalogo {
+        border: 1px solid green;
+    }
+
+    .conteudo-input {
+        border: 1px solid red;
+    }
+
+    .search-input input {
+        width: 100%;
+        border: 1px solid green;
+    }
+
+
     /* ==== section sobre ==== */
 
     .left-content {
@@ -126,6 +156,105 @@
 
     /* ==== section feature ==== */
    
+}
+
+@media screen and (max-width: 500px) {
     
-   
+    /* ==== header-destaque ====*/
+
+    header nav ul li a {
+        display: none;
+    }
+
+    .header-destaque {
+        border: 1px solid blue;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-destaque img {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        max-width: 400px;
+    }
+
+    .header-destaque-texto {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-destaque-texto h2, 
+    .header-destaque-texto p {
+
+        text-align: center;
+    }
+
+    /* ==== section catalog ==== */
+
+    #catalogo {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .catalogo-texto {
+        margin: 0;
+    }
+
+    .conteudo-input {
+        display: none;
+    }
+
+    .card-wrapper {
+        margin: 0;
+    }
+    
+    .card-item img {
+        width: 350px;
+    }
+
+    /* ==== section sobre ==== */
+
+    #sobre {
+        padding: 0;
+        margin-top: 120px;
+    }
+
+    .left-content {
+        display: none;
+    }
+
+    #sobre-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-content h3 {
+        text-align: center;
+    }
+
+    .right-content p {
+        text-align: center;
+    }
+
+    /* ==== section feature ==== */
+
+    #features {
+        padding: 0;
+        margin-top: 120px;
+    }
+
+    .feature-content {
+        gap: 10px;
+    }
+
+    .feature-wrapper {
+        padding: 0;
+    }
 }
