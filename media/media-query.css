@@ -184,7 +184,7 @@
         position: relative;
         right: 0;
         bottom: 0;
-        max-width: 90%;
+        max-width: 350px;
     }
 
     .header-destaque-texto {
@@ -296,6 +296,13 @@
 }
 
 @media screen and (max-width: 400px) {
+
+    /* ==== header ==== */
+
+    .header-destaque img {
+
+        max-width: 350px;
+    }
 
     /* ==== section features ==== */
     
