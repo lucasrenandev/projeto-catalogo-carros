@@ -176,7 +176,7 @@ nav button:hover {
     height: 50px;
     border-radius: 4px 0px 0px 4px;
     border: none;
-    text-indent: 15px;
+    text-indent: 10px;
 }
 
 .search-input input::placeholder {
