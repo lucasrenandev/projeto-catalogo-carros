@@ -180,7 +180,7 @@ nav button:hover {
 }
 
 .search-input input::placeholder {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .search-input button {
