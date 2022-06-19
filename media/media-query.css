@@ -229,7 +229,7 @@
     }
 
     .card-item img {
-        width: 80%;
+        max-width: 270px;
     }
 
     /* ==== section sobre ==== */
