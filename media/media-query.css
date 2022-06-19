@@ -213,13 +213,19 @@
     #catalogo {
         padding: 20px;
     }
-
-    .conteudo-input {
-        display: none;
+   
+    .search-input {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .card-wrapper {
-        margin: 0;
+    .search-input input {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .search-input button {
+        border-radius: 4px;
     }
 
     .card-item img {
@@ -302,7 +308,7 @@
     footer {
         height: 65%;
     }
-    
+
     .copy p {
         font-size: 1em;
     }
