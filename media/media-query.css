@@ -301,7 +301,7 @@
 
     .header-destaque img {
 
-        max-width: 350px;
+        max-width: 300px;
     }
 
     /* ==== section features ==== */
@@ -331,6 +331,11 @@
 
     header nav ul button {
         display: none;
+    }
+
+    .header-destaque img {
+
+        max-width: 280px;
     }
 
     /* ==== section catálogo ==== */
